@@ -15,5 +15,8 @@ recursive-include imgui-cpp *.cpp *.h
 prune imgui-cpp/examples
 prune imgui-cpp/extra_fonts
 
+# ImPlot sources
+recursive-include implot-cpp *.cpp *.h
+
 # ansifeed sources
 recursive-include ansifeed-cpp *.cpp *.h
